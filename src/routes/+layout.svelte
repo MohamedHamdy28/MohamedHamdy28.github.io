@@ -1,15 +1,16 @@
 <script>
 	export const prerender = true;
+	import { base } from '$app/paths';
 </script>
 
 <header>Mohamed Abdelhamid</header>
 
 <div>
 	<nav>
-		<a href="/" style="margin-left: 50px;" class="home">Home</a>
-		<a href="/about_me" class="about-me-a">About me</a>
-		<a href="/projects" class="projects">Projects</a>
-		<a href="/comics" class="comics">Comics</a>
+		<a href="{base}/" style="margin-left: 50px;" class="home">Home</a>
+		<a href="{base}/about_me" class="about-me-a">About me</a>
+		<a href="{base}/projects" class="projects">Projects</a>
+		<a href="{base}/comics" class="comics">Comics</a>
 	</nav>
 </div>
 
